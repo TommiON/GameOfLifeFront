@@ -3,11 +3,11 @@
   height: 20px;
   border: 1px solid black;
   display: inline-block;
-  margin: 1px;
+  margin: 0px;
 }
 .cell.alive {
   background-color: green;
 }
 .cell.dead {
-  background-color: gray;
+  background-color: lightgray;
 }

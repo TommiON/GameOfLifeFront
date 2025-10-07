@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import './Cell.css'
 
-export const Cell = () => {
-    const [isAlive, setIsAlive] = useState(false);
-    const [isCheckable, setIsCheckable] = useState(true);
-
+export const Cell = ({alive, checkable}: {alive: boolean, checkable: boolean}) => {
+    const [isAlive, setIsAlive] = useState(alive);
+    
     const toggleCell = () => {
-        if (isCheckable) {
+        if (checkable) {
             setIsAlive(!isAlive);
         }
     };
