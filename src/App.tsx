@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import { Cell } from './components/Cell/Cell'
-import { PopulationGrid } from './components/PopulationGrid/PopulationGrid'
+import { PopulationGrid } from './components/PopulationGrid/PopulationGrid';
+import { MainBar } from './components/MainBar/MainBar';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <PopulationGrid numberOfRows={10} numberOfColumns={30} cells={null} />
+    <>
+      <MainBar initializationDone={false} />
+      <PopulationGrid numberOfRows={10} numberOfColumns={30} cells={null} />
+    </>
+    
   )
 }
 

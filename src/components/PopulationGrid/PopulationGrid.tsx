@@ -1,4 +1,5 @@
 import { Cell } from "../Cell/Cell";
+import "./PopulationGrid.css";
 
 export const PopulationGrid = ({numberOfRows, numberOfColumns, cells}: {numberOfRows: number, numberOfColumns: number, cells: boolean[] | null}) => {
     const gridCells = [];

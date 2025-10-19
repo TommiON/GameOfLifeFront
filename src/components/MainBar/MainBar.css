@@ -1,0 +1,9 @@
+.main-bar {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    background-color: darkgrey;
+    color: black;
+    /*padding: 10px;*/
+    text-align: left;
+}
