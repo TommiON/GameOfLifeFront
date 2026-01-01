@@ -1,3 +1,4 @@
+import { fetchNextGeneration } from './services/fetchGenerationService';
 import { useState } from 'react'
 import './App.css'
 import { PopulationGrid } from './components/PopulationGrid/PopulationGrid';
